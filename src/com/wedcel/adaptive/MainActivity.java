@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		//text = (TextView)findViewById(R.id.text);
 		down_progress = (ProgressBar)findViewById(R.id.down_progress);
-		title = "测试";
+		title = "测试android不同客户端的适配";
 		//text.setText(title);
 		RefreshAsyn ansy = new RefreshAsyn(this);
 		ansy.execute("");
